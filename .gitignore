@@ -1,0 +1,51 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment variables
+.env
+.env.local
+
+# IDE配置文件
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+
+# 测试和临时文件
+test_*.py
+tmp/
+temp/
+*.tmp
+
+# 默认生成的文件（通常用不到）
+main.py
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# 日志文件
+*.log
+logs/
