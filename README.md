@@ -147,6 +147,24 @@ cat tracking_analysis/README.md
 - 真实的业务场景示例
 - 详细的使用文档
 
+### AI QualityOps / EvalOps 平台
+
+**项目位置**：`ai_quality_ops/`
+
+**亮点特性**：
+- ✍️ Rubric 评审：将业务准则结构化传递给 LLM，产出分数、Verdict、整改建议
+- 🛡️ 质量闸门：可配置最小得分与允许失败数量，自动给出 PASS/NEEDS_REVIEW/BLOCKED 结论
+- 📉 漂移诊断：聚合失败用例，分析质量回退的风险与根因
+- 🔁 回归流水线：示例脚本演示如何按套件拆分执行，便于集成 CI/CD
+
+**快速开始**：
+```bash
+uv run python ai_quality_ops/demo/run_quality_gate.py
+uv run python ai_quality_ops/demo/run_regression_suite.py
+```
+
+详细说明见 `ai_quality_ops/README.md` 与 `ai_quality_ops/QUICKSTART.md`。
+
 ## 下一步学习
 
 1. **优化器学习**：探索 DSPy 的 Optimizer（如 BootstrapFewShot）
